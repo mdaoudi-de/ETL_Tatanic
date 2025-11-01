@@ -1,0 +1,49 @@
+# --- Environnements virtuels ---
+venv/
+.env/
+*.env
+
+# --- Dossiers de données ---
+data/*
+!data/raw/
+data/raw/*
+!data/raw/titanic.csv
+
+# --- Bases de données et fichiers volumineux ---
+*.db
+*.sqlite
+*.sqlite3
+*.parquet
+*.json
+
+# --- Fichiers temporaires ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+*.tmp
+*.bak
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.ipynb_save
+.notebook/
+.notebooks/
+
+# --- IDE / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Tests / Coverage ---
+.coverage
+.pytest_cache/
+htmlcov/
+
+# --- Déploiement / Docker ---
+*.pid
+*.sock
+*.out
+docker-compose.override.yml

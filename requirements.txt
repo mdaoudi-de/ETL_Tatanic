@@ -1,0 +1,15 @@
+# --- Core ETL ---
+pandas>=2.2,<3
+numpy>=1.26,<3
+SQLAlchemy>=2.0,<3
+
+# --- Notebook & Viz ---
+ipykernel>=6.29
+matplotlib>=3.8,<4
+
+# --- Config / Secrets ---
+python-dotenv>=1.0,<2
+
+# --- Tests ---
+pytest>=8.0,<9
+pytest-cov>=5.0,<6
