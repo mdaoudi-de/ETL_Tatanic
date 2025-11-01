@@ -8,10 +8,6 @@ data/*
 !data/raw/
 data/raw/*
 !data/raw/titanic.csv
-!data/processed/
-data/processed/*
-!data/staging/
-data/staging/*
 
 # --- Bases de données et fichiers volumineux ---
 *.db
