@@ -1,0 +1,12 @@
+.git
+__pycache__/
+*.pyc
+venv/
+.venv/
+.ipynb_checkpoints/
+data/raw/*
+data/staging/*
+data/processed/*
+data/clean/*
+db/*
+*.db
