@@ -3,9 +3,9 @@ import pandas as pd
 
 # Point d'entrée du script d'extraction
 def main():
-    """Extraire les données du fichier CSV brut et les enregistrer dans le répertoire processed."""
+    """Extraire les données du fichier CSV brut et les enregistrer dans le répertoire staging."""
     csv_path = Path("data/raw/titanic.csv")
-    out_dir = Path("data/processed")
+    out_dir = Path("data/staging")
     out_dir.mkdir(parents=True, exist_ok=True)
     out_path = out_dir / "titanic_extracted.csv"
 
